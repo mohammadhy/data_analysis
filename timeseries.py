@@ -1,0 +1,22 @@
+#python3.8.5
+
+"""
+Created on Sun Nov 15 18:54:54 2020
+
+@author: HY
+"""
+import pandas as pd 
+from datetime import datetime
+import numpy as np 
+
+index = pd.date_range('2020-01-01', '2021-01-01')
+
+
+data = np.random.randn(367, 4)
+
+df = pd.DataFrame(data, index=index)
+
+print(df.asfreq(freq='WOM-3FRI'))
+
+
+
