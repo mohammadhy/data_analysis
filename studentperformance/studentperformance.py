@@ -142,34 +142,6 @@ print(confusion_matrix(y_test, y_predict))
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 '''
 from matplotlib.colors import ListedColormap
 def plot_decision_boundary(clf, X, y, axes=[0, 4, 0, 3],legend=False, plot_training=True):
